@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/go_to_events"
+        android:title="EVENTS"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/go_to_saved_games"
+        android:title="SAVED GAMES"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/go_to_mat"
+        android:title="SHOW BALLS"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/go_to_scores"
+        android:title="SCORES BOARD"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/restart_game"
+        android:title="RESTART GAME"
+        app:showAsAction="never" />
+</menu>

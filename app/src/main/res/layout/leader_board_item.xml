@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="10dp"
+    android:id="@+id/player_tile_background"
+    android:weightSum="10"
+    android:orientation="horizontal">
+<TextView
+    android:layout_width="0dp"
+    android:layout_weight="2"
+    android:layout_height="match_parent"
+    android:layout_marginRight="10dp"
+    android:id="@+id/player_position_tv"/>
+
+    <TextView
+        android:id="@+id/player_name_tv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_weight="6" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:id="@+id/player_score_tv"/>
+</LinearLayout>
